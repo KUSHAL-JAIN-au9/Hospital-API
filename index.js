@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import db from "./config/mongoose.js";
 import passport from "passport";
+import routes from "./routes/index.js";
 
 dotenv.config();
 
@@ -17,11 +18,11 @@ console.log(process.env.SECRET);
 app.use(express.json());
 
 // express router
-// app.use("/", routes);
+app.use("/", routes);
 
-app.get("/", (req, res) => {
-  res.send("Hello, Express!");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hello, Express!");
+// });
 
 app.listen(port, (err) => {
   if (err) {
