@@ -17,13 +17,12 @@ First start with downloading the code and and write npm install on code editor, 
 4.Use this http://localhost:8000/api/v1/patients/64ce3969c065b4198d113d39/create_report to create report and add status you can see the types of status in report model.
 ![Screenshot (11)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/48674e21-9d25-4f03-8473-d5e197a363d6)
 
-
 5.Use this http://localhost:8000/api/v1/reports/Negative to get all reports of all the patients filtered by a specific status 
-![Screenshot (12)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/bcd0ec82-d7be-4b32-bec9-0d0ea61a7b10)
-
+![Screenshot (13)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/a1f53992-46bd-4c52-bdc3-6d5d5d758cd1)
 
 6.Use this http://localhost:8000/api/v1/patients/64ce3969c065b4198d113d39/all_reports to get all the reports.
-![Screenshot (13)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/a1f53992-46bd-4c52-bdc3-6d5d5d758cd1)
+![Screenshot (12)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/bcd0ec82-d7be-4b32-bec9-0d0ea61a7b10)
+
 
 
 
