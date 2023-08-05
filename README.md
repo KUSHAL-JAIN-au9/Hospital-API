@@ -6,22 +6,25 @@ govt for testing and quarantine + well being of COVID-19 patients created for re
 First start with downloading the code and and write npm install on code editor, it will install all dependencies on your editor. You will need a code editor and mongoDB setup on your computer. We will use postman to check the api is working or not,So download postman on your computer.
 
 1.Now use this http://localhost:8000/api/v1/doctors/register route to register doctor in API and add the info as shown in image
-![Screenshot (13)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/a1f53992-46bd-4c52-bdc3-6d5d5d758cd1)
+![Screenshot (8)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/a355abd1-a100-4a1b-aa79-cf3b6f04c7e3)
 
 2.Use this http://localhost:8000/api/v1/doctors/login to login as a doctor and add info as shown in image
-![Screenshot (12)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/bcd0ec82-d7be-4b32-bec9-0d0ea61a7b10)
-
-3.Use this http://localhost:8000/api/v1/patients/register and add the token in authorization area which is recieved in second point
-![Screenshot (11)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/48674e21-9d25-4f03-8473-d5e197a363d6)
-
-4.Use this http://localhost:8000/api/v1/patients/64ce3969c065b4198d113d39/create_report to create report and add status you can see the types of status in report model.
-![Screenshot (10)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/46967cce-bda4-4ac0-8bb8-0d7f8f1690be)
-
-5.Use this http://localhost:8000/api/v1/reports/Negative to get all reports of all the patients filtered by a specific status 
 ![Screenshot (9)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/7b787146-6f78-4241-ba9f-6a13f2c5fc4e)
 
+3.Use this http://localhost:8000/api/v1/patients/register and add the token in authorization area which is recieved in second point
+![Screenshot (10)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/46967cce-bda4-4ac0-8bb8-0d7f8f1690be)
+
+4.Use this http://localhost:8000/api/v1/patients/64ce3969c065b4198d113d39/create_report to create report and add status you can see the types of status in report model.
+![Screenshot (11)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/48674e21-9d25-4f03-8473-d5e197a363d6)
+
+
+5.Use this http://localhost:8000/api/v1/reports/Negative to get all reports of all the patients filtered by a specific status 
+![Screenshot (12)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/bcd0ec82-d7be-4b32-bec9-0d0ea61a7b10)
+
+
 6.Use this http://localhost:8000/api/v1/patients/64ce3969c065b4198d113d39/all_reports to get all the reports.
-![Screenshot (8)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/a355abd1-a100-4a1b-aa79-cf3b6f04c7e3)
+![Screenshot (13)](https://github.com/KUSHAL-JAIN-au9/Hospital-API/assets/36365855/a1f53992-46bd-4c52-bdc3-6d5d5d758cd1)
+
 
 
 ## Features
