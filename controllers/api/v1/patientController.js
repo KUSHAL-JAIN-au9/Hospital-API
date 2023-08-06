@@ -13,9 +13,9 @@ export const patientRegister = async (req, res) => {
 
     //if there is patient success if not then create
     if (patient.length > 0) {
-      return res.status(200).json({
-        success: true,
-        body: patient[0],
+      return res.status(409).json({
+        success: false,
+        msg: "The phone number you provided is already associated with an existing patient",
       });
     }
 
